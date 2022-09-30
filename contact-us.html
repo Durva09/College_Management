@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<head>
+    <title>Contact-Us</title>
+    <!-- META TAGS -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="IIST is one of the best educational institute">
+    <meta name="keyword" content="education ,tution">
+    <!-- FAV ICON(BROWSER TAB ICON) -->
+    <link rel="shortcut icon" href="images/IIST_Icon.ico" type="image/x-icon">
+    <!-- GOOGLE FONT -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700%7CJosefin+Sans:600,700" rel="stylesheet">
+    <!-- FONTAWESOME ICONS -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- ALL CSS FILES -->
+    <link href="css/materialize.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <!-- RESPONSIVE.CSS ONLY FOR MOBILE AND TABLET VIEWS -->
+    <link href="css/style-mob.css" rel="stylesheet" />
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+	<script src="js/html5shiv.js"></script>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+
+  <script src="https:ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="def.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+
+<style>
+.fa-stack[data-count]:after{
+  position:absolute;
+  right:22%;
+  top:13%;
+  content: attr(data-count);
+  font-size:30%;
+  padding:0.5em;
+  border-radius:80%;
+  line-height:0.6em;
+  color: white;
+  background:rgba(255,0,0,.85);
+  text-align:center;
+  min-width:0.6em;
+  font-weight:bold;
+}
+
+/* Scroll Up Button  */
+            #btnScrollToTop {
+                position: fixed;
+                right: 10px;
+                bottom: 10px;
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+                background: #e62739;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+                color: #ffffff;
+                border: none;
+                outline: none;
+                cursor: pointer;
+display:none;
+                }
+            #btnScrollToTop:active {
+                background: #cc2333;
+            }
+</style>
+</head>
+
+<body>
+
+ <!-- /Scroll Up Button/  -->
+
+    <button id="btnScrollToTop"><i class="material-icons">arrow_upward</i>
+    </button>
+
+    <script>
+
+var mybutton = document.getElementById("btnScrollToTop");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+
+        const btnScrollToTop = document.querySelector("#btnScrollToTop");
+
+        btnScrollToTop.addEventListener("click", function () {
+           // window.scrollTo(0, 0);
+
+        //    window.scrollTo({
+        //        top: 50;
+        //        left: 0;
+        //        behaviour: " Smooth";
+        //    });
+
+        $("html, body").animate({ scrollTop: 0}, "slow");
+
+        });
+
+</script>
+
+    <!-- MOBILE MENU -->
+    <section>
+        <div class="ed-mob-menu">
+            <div class="ed-mob-menu-con">
+                <div class="ed-mm-left">
+                    <div class="wed-logo">
+                        <a href="contact-us.html"><img src="images/IIST_003.png" alt="" />
+						</a>
+                    </div>
+                </div>
+                <div class="ed-mm-right">
+                    <div class="ed-mm-menu">
+                        <a href="#" class="ed-micon"><i class="fa fa-bars"></i></a>
+                        <div class="ed-mm-inn">
+                            <a href="#" class="ed-mi-close"><i class="fa fa-times"></i></a>
+                            <h4>All Courses</h4>
+                            <ul>
+                                <li><a href="#">Accounting/Finance</a></li>
+                                <li><a href="#">civil engineering</a></li>
+				<li><a href="#">Computer Science engineering</a></li>
+				<li><a href="#">Chemical engineering</a></li>				
+                                <li><a href="#">Business Management</a></li>                              
+                                <li><a href="#">Web Design/Development</a></li>                               
+                                <li><a href="#">Networking Courses</a></li>
+                                <li><a href="#">Information technology</a></li>
+                            </ul>
+                            <h4>User Account</h4>
+                            <ul>
+                                <li><a href="#" data-toggle="modal" data-target="#modal1">Sign In</a></li>
+                                <li><a href="#" data-toggle="modal" data-target="#modal2">Register</a></li>
+                            </ul>
+                            <h4>All Pages</h4>
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="#">About us</a></li>
+                                <li><a href="#">Admission</a></li>
+                                <li><a href="#">All courses</a></li>
+                                <li><a href="#">Events</a></li>
+                                <li><a href="contact-us.html">Contact us</a></li>
+                            </ul>
+                            <h4>User Profile</h4>
+                            <ul>
+                                <li><a href="index.html">User profile</a></li>
+                                <li><a href="index.html">Courses</a></li>
+                                <li><a href="index.html">Exams</a></li>
+                                <li><a href="index.html">Profile</a></li>
+                                <li><a href="index.html">Time line</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--HEADER SECTION-->
+    <section>
+        <!-- TOP BAR -->
+        <div class="ed-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="ed-com-t1-left">
+                            <ul>
+                                <li><a href="#">Contact: &nbsp; Opposite Indian Institute of Management,Rau - Pithampur Rd, Rau, Indore,Madhya Pradesh</a>
+                                </li>
+                                <li><a href="#">Phone: 1800 103 3069</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="ed-com-t1-right">
+                            <ul>
+                                <li><a href="#!" data-toggle="modal" data-target="#modal1">Sign In</a>
+                                </li>
+                                <li><a href="#!" data-toggle="modal" data-target="#modal2">Sign Up</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="ed-com-t1-social">
+                            <ul>
+                                <li><a href="https://www.facebook.com/IISTcollegeindore/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                </li>
+                                <li><a href="mailto :admissions@indoreinstitute.com"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                                </li>
+                                <li><a href="https://twitter.com/indoreinst1"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- LOGO AND MENU SECTION -->
+        <div class="top-logo" data-spy="affix" data-offset-top="250">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="wed-logo">
+                            <a href="index.html"><img src="images/IIST_003.png" alt="" />
+                            </a>
+                        </div>
+                        <div class="main-menu">
+                            <ul>
+                                <li><a href="index.html">Home</a>
+                                </li>
+                                <li class="about-menu">
+                                   
+                                    <a href="#" class="mm-arr">About us</a>
+                                    <!-- MEGA MENU 1 -->
+                                    <div class="mm-pos">
+                                        <div class="about-mm m-menu">
+                                            <div class="m-menu-inn">
+                                              
+                                                <div class="mm1-com mm1-s2">
+                                                    <p>Indore Institute of Science &Technology (IIST) established in the year 2003, is amongst the Top 5 Engineering Colleges of Indore. <span id="dots">...</span><span id="more">  
+						The Institute is approved by AICTE, New Delhi and affiliated to RGPV Bhopal offering 
+						Bachelor’s degree in CS, IT, EC, Civil, Chemical and Mechanical Engineering and Master’s Degree in 
+						CS, Machine Design and Digital Communication. Towards this we have dedicated Special Interest Groups (SIGs) 
+						on emerging areas like Data Analytics, Cloud Computing, Artificial Intelligence, Internet of Things (IoT), Robotics, Mechatronics, 
+						Additive Manufacturing, Renewable Energy, Sustainable Development, etc. These SIGs focus on the Capacity building of the faculty 
+						and students and enable them to take up the activities related to training, research and development on the emerging fields. 
+						IIST is also associated with IITs like IIT Bombay for e-yantra Robotics Lab, Spoken Tutorial and IIT Delhi for Virtual Lab 
+						and also have good Industry-Academia tie ups like the AWS Academy, RedHat Academy, Microsoft Imagine Academy, Facebook Developer 
+						Circles, etc. to bridge the gap between the requirements of the Industry and the curriculum 
+						through International/ National Certificate courses.</span></p>
+                                                    <button onclick="myButton()" id="myBtn"  class="mm-r-m-btn">Read more</button>
+							<script>
+								function myButton() {
+ 								 var dots = document.getElementById("dots");
+								  var moreText = document.getElementById("more");
+								   var btnText = document.getElementById("myBtn");
+
+ 								 if (dots.style.display === "none") 
+								   {
+								    dots.style.display = "inline";
+								    btnText.innerHTML = "Read more";
+								    moreText.style.display = "none";
+								    } else {
+								    dots.style.display = "none";
+								    btnText.innerHTML = "Read less";
+								    moreText.style.display = "inline";
+								    }
+								}
+							</script>
+                                                </div>
+                                               
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="admi-menu">
+                                    <a href="#" class="mm-arr">Admission</a>
+                                   
+                                </li>
+                                <li><a href="#">All Courses</a></li>
+                               
+                                <li class="cour-menu">
+                                    <a href="https://www.eduqfix.com/PayDirect/#/student/pay/9ifyyx2EWyty8kyXEDtFtA720L+llbXnZmc2+dQ+31M3KMyESa0fMWjv1krZFsls/2918" class="mm-arr" class="mm-arr" class="mm-arr">Pay Fee Online</a>
+                                   
+                                </li>
+                                <li><a href="#">Events</a>
+                                </li>
+                                <li><a href="#">Student</a>
+                                </li>
+                                <li><a href="contact-us.html">Contact us</a>
+                                </li>
+				<li><span class="fa-stack fa-2x" data-count="9">
+
+  <i class="fa fa-bell fa-stack-1x fa-inverse" style="font-size:30px; color:orange;"></i>
+</span></i></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="all-drop-down-menu">
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="search-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="search-form">
+                            <form>
+                                <div class="sf-type">
+                                    <div class="sf-input">
+                                        <input type="text" id="sf-box" placeholder="Search course and discount courses">
+                                    </div>
+                                    <div class="sf-list">
+                                        <ul>
+                                           <li><a href="#">Accounting/Finance</a></li>
+                                <li><a href="#">civil engineering</a></li>
+				<li><a href="#">Computer Science engineering</a></li>
+				<li><a href="#">Chemical engineering</a></li>				
+                                <li><a href="#">Business Management</a></li>                              
+                                <li><a href="#">Web Design/Development</a></li>                               
+                                <li><a href="#">Networking Courses</a></li>
+                                <li><a href="#">Information technology</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="sf-submit">
+                                    <input type="submit" value="Search Course">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--END HEADER SECTION-->
+
+    <!--SECTION START-->
+    <section>
+        <div class="container com-sp pad-bot-70">
+            <div class="row">
+                <div class="cor about-sp">
+                    <div class="ed-about-tit">
+                        <div class="con-title">
+                            <h2>Contact <span> Us</span></h2><br>
+                        </div>
+                    </div>
+                    <div class="pg-contact">
+                        <div class="col-md-3 col-sm-6 col-xs-12 new-con new-con1">
+                            <h2>Master <span>Education</span></h2>
+                            <p>We Provide best education along with best infrastructure.</p>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-12 new-con new-con1"> <img src="img/contact/1.html" alt="">
+                            <h4>Address</h4>
+                            <p>Opposite Indian Institute of Management,Rau - Pithampur Rd,<br> Rau, Indore,Madhya Pradesh</p>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-12 new-con new-con3"> <img src="img/contact/2.html" alt="">
+                            <h4>CONTACT INFO:</h4>
+                            <p> <a href="#" class="contact-icon">Toll Free:1800 103 3069</a>
+                                <br> <a href="#" class="contact-icon">Mobile:8224071000</a>
+                                <br> <a href="mailto :admissions@indoreinstitute.com" class="contact-icon">Email:admissions@indoreinstitute.com</a> </p>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-12 new-con new-con4"> <img src="img/contact/3.html" alt="">
+                            <h4>Website</h4>
+                            <p> <a href="https://indoreinstitute.com/">Website: www.indoreinstitute.com</a>
+                                <br> <a href=" https://www.facebook.com/IISTcollegeindore/">Facebook: www.facebook.com</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--SECTION END-->
+
+    <section id="map">
+        <div class="row contact-map">
+            <!-- IFRAME: GET YOUR LOCATION FROM GOOGLE MAP -->
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3682.6571225374687!2d75.77919941479313!3d22.62927568515367!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962f939228d75dd%3A0xcf9efd7925de48cc!2sIndore%20Institute%20of%20Science%20%26%20Technology!5e0!3m2!1sen!2sin!4v1620578120854!5m2!1sen!2sin" width="1080" height="720" style="border:0;" allowfullscreen="" loading="lazy" ></iframe>
+            <div class="container">
+                <div class="overlay-contact footer-part footer-part-form">
+                    <div class="map-head">
+                        
+                        <h2>Get In Touch</h2> <span class="footer-ser-re">Service Request Form</span> </div>
+                    <!-- ENQUIRY FORM -->
+                    <form id="contact_form" name="contact_form" action="#">
+                        <ul>
+                            <li class="col-md-6 col-sm-6 col-xs-12 contact-input-spac">
+                                <input type="text" id="f1" value="" name="f1" placeholder="Name" required=""> </li>
+                            <li class="col-md-6 col-sm-6 col-xs-12 contact-input-spac">
+                                <input type="text" id="f2" value="" name="f2" placeholder="Phone" required=""> </li>
+                            <li class="col-md-6 col-sm-6 col-xs-12 contact-input-spac">
+                                <input type="text" id="f3" value="" name="f3" placeholder="City" required=""> </li>
+                            <li class="col-md-6 col-sm-6 col-xs-12 contact-input-spac">
+                                <input type="text" id="f4" value="" name="f4" placeholder="E-mail" required=""> </li>
+                            <li class="col-md-12 col-sm-12 col-xs-12 contact-input-spac">
+                                <textarea id="f5" name="f5" required=""></textarea>
+                            </li>
+                            <li class="col-md-6">
+                                <input type="submit" value="SUBMIT"> </li>
+                        </ul>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--SECTION START-->
+    <section>
+        <div class="full-bot-book">
+            <div class="container">
+                <div class="row">
+                    <div class="bot-book">
+                        <div class="col-md-2 bb-img">
+                            <img src="images/3.png" alt="">
+                        </div>
+                        <div class="col-md-7 bb-text">
+                            <h4>Get yourself a bright and secure Future</h4>
+                            <p>Here at IIST we  provide you the best infrastructure with highly qualified educators and trainers with best updated curriculum with guaranteed top level placements.</p>
+                        </div>
+                        <div class="col-md-3 bb-link">
+                            <a href="course-details.html">Grab Your Seat</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--SECTION END-->
+
+    <!--HEADER SECTION-->
+    <section class="wed-hom-footer">
+        <div class="container">
+            
+            <div class="row wed-foot-link">
+                <div class="col-md-4 foot-tc-mar-t-o">
+                    <h4>Top Courses</h4>
+                    <ul>
+                       <li><a href="#">Accounting/Finance</a></li>
+                                <li><a href="#">civil Engineering</a></li>
+				<li><a href="#">Computer Science Engineering</a></li>
+				<li><a href="#">Chemical Engineering</a></li>				
+                                <li><a href="#">Business Management</a></li>                              
+                                <li><a href="#">Web Design/Development</a></li>                               
+                                <li><a href="#">Networking Courses</a></li>
+                                <li><a href="#">Information technology</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h4>New Courses</h4>
+                    <ul>
+                        <li><a href="course-details.html">Sciences</a></li>
+                        <li><a href="course-details.html">Statistics</a></li>
+                        <li><a href="course-details.html">Web Design/Development</a></li>
+                        <li><a href="course-details.html">SEO</a></li>
+                        <li><a href="course-details.html">Google Business</a></li>
+                        <li><a href="course-details.html">Graphics Design</a></li>
+                        <li><a href="course-details.html">Networking Courses</a></li>
+                        <li><a href="course-details.html">Information technology</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h4>HELP & SUPPORT</h4>
+                    <ul>
+                        <li><a href="#">24x7 Live help</a>
+                        </li>
+                        <li><a href="contact-us.html">Contact us</a>
+                        </li>
+                        <li><a href="#">Feedback</a>
+                        </li>
+                        <li><a href="#">FAQs</a>
+                        </li>
+                        <li><a href="#">Safety Tips</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row wed-foot-link-1">
+                <div class="col-md-4 foot-tc-mar-t-o">
+                    <h4>Get In Touch</h4>
+                    <p>Address: Opposite Indian Institute of Management,Rau - Pithampur Rd, Rau, Indore,Madhya Pradesh</p>
+                    <p>Phone: <a href="#!">1800 103 3069</a></p>
+                    <p>Email: <a href="mailto :admissions@indoreinstitute.com">admissions@indoreinstitute.com</a></p>
+                </div>
+                <div class="col-md-4">
+                    <h4>DOWNLOAD OUR FREE MOBILE APPS</h4>
+                    <ul>
+                        <li><a href="#"><span class="sprite sprite-android"></span></a>
+                        </li>
+                        <li><a href="#"><span class="sprite sprite-ios"></span></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h4>SOCIAL MEDIA</h4>
+                    <ul>
+                        <li><a href="https://www.facebook.com/IISTcollegeindore/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        </li>
+                        <li><a href="https://twitter.com/indoreinst1"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        </li>
+                        <li><a href="mailto :admissions@indoreinstitute.com"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                        </li>
+                        <li><a href="https://www.youtube.com/channel/UCBS90582OxZdw05BEn1TSAQ"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+                        </li>
+                        <li><a href="https://wa.me/918224071000"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--END HEADER SECTION-->
+
+    <!--HEADER SECTION-->
+    <section class="wed-rights">
+        <div class="container">
+            <div class="row">
+                <div class="copy-right">
+                   <a target="_blank" href="https://indoreinstitute.com/">IIST Indore</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--END HEADER SECTION-->
+
+    <!--SECTION LOGIN, REGISTER AND FORGOT PASSWORD-->
+    <section>
+        <!-- LOGIN SECTION -->
+        <div id="modal1" class="modal fade" role="dialog">
+            <div class="log-in-pop">
+                <div class="log-in-pop-left">
+                    <h1>Hello...</h1>
+                    <p>Don't have an account? Create your account. It's take less then a minutes</p>
+                    <h4>Login with social media</h4>
+                    <ul>
+                        <li><a href="https://www.facebook.com/IISTcollegeindore/"><i class="fa fa-facebook"></i> Facebook</a>
+                        </li>
+                        <li><a href="mailto :admissions@indoreinstitute.com"><i class="fa fa-google"></i> Google+</a>
+                        </li>
+                        <li><a href="https://twitter.com/indoreinst1"><i class="fa fa-twitter"></i> Twitter</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="log-in-pop-right">
+                    <a href="#" class="pop-close" data-dismiss="modal"><img src="images/cancel.png" alt="" />
+                    </a>
+                    <h4>Login</h4>
+                    <p>Don't have an account? Create your account. It's take less then a minutes</p>
+                    <form class="s12">
+                        <div>
+                            <div class="input-field s12">
+                                <input type="text" data-ng-model="name" class="validate">
+                                <label>User name</label>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="input-field s12">
+                                <input type="password" class="validate">
+                                <label>Password</label>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="s12 log-ch-bx">
+                                <p>
+                                    <input type="checkbox" id="test5" />
+                                    <label for="test5">Remember me</label>
+                                </p>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="input-field s4">
+                                <input type="submit" value="Login" class="waves-effect waves-light log-in-btn"> </div>
+                        </div>
+                        <div>
+                            <div class="input-field s12"> <a href="#" data-dismiss="modal" data-toggle="modal" data-target="#modal3">Forgot password</a> | <a href="#" data-dismiss="modal" data-toggle="modal" data-target="#modal2">Create a new account</a> </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- REGISTER SECTION -->
+        <div id="modal2" class="modal fade" role="dialog">
+            <div class="log-in-pop">
+                <div class="log-in-pop-left">
+                    <h1>Hello...</h1>
+                    <p>Don't have an account? Create your account. It's take less then a minutes</p>
+                    <h4>Login with social media</h4>
+                    <ul>
+                        <li><a href="https://www.facebook.com/IISTcollegeindore/"><i class="fa fa-facebook"></i> Facebook</a>
+                        </li>
+                        <li><a href="mailto :admissions@indoreinstitute.com"><i class="fa fa-google"></i> Google+</a>
+                        </li>
+                        <li><a href="https://twitter.com/indoreinst1"><i class="fa fa-twitter"></i> Twitter</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="log-in-pop-right">
+                    <a href="#" class="pop-close" data-dismiss="modal"><img src="images/cancel.png" alt="" />
+                    </a>
+                    <h4>Create an Account</h4>
+                    <p>Don't have an account? Create your account. It's take less then a minutes</p>
+                    <form class="s12">
+                        <div>
+                            <div class="input-field s12">
+                                <input type="text" data-ng-model="name1" class="validate">
+                                <label>User name</label>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="input-field s12">
+                                <input type="email" class="validate">
+                                <label>Email id</label>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="input-field s12">
+                                <input type="password" class="validate">
+                                <label>Password</label>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="input-field s12">
+                                <input type="password" class="validate">
+                                <label>Confirm password</label>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="input-field s4">
+                                <input type="submit" value="Register" class="waves-effect waves-light log-in-btn"> </div>
+                        </div>
+                        <div>
+                            <div class="input-field s12"> <a href="#" data-dismiss="modal" data-toggle="modal" data-target="#modal1">Are you a already member ? Login</a> </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- FORGOT SECTION -->
+        <div id="modal3" class="modal fade" role="dialog">
+            <div class="log-in-pop">
+                <div class="log-in-pop-left">
+                    <h1>Hello... </h1>
+                    <p>Don't have an account? Create your account. It's take less then a minutes</p>
+                    <h4>Login with social media</h4>
+                    <ul>
+                        <li><a href="https://www.facebook.com/IISTcollegeindore/"><i class="fa fa-facebook"></i> Facebook</a>
+                        </li>
+                        <li><a href="mailto :admissions@indoreinstitute.com"><i class="fa fa-google"></i> Google+</a>
+                        </li>
+                        <li><a href="https://twitter.com/indoreinst1"><i class="fa fa-twitter"></i> Twitter</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="log-in-pop-right">
+                    <a href="#" class="pop-close" data-dismiss="modal"><img src="images/cancel.png" alt="" />
+                    </a>
+                    <h4>Forgot password</h4>
+                    <p>Don't have an account? Create your account. It's take less then a minutes</p>
+                    <form class="s12">
+                        <div>
+                            <div class="input-field s12">
+                                <input type="text" data-ng-model="name3" class="validate">
+                                <label>User name or email id</label>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="input-field s4">
+                                <input type="submit" value="Submit" class="waves-effect waves-light log-in-btn"> </div>
+                        </div>
+                        <div>
+                            <div class="input-field s12"> <a href="#" data-dismiss="modal" data-toggle="modal" data-target="#modal1">Are you a already member ? Login</a> | <a href="#" data-dismiss="modal" data-toggle="modal" data-target="#modal2">Create a new account</a> </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="icon-float">
+            <ul>
+                <li><a href="#" class="sh">1k <br> Share</a> </li>
+                <li><a href="https://www.facebook.com/IISTcollegeindore/" class="fb1"><i class="fa fa-facebook" aria-hidden="true"></i></a> </li>
+                <li><a href="mailto :admissions@indoreinstitute.com" class="gp1"><i class="fa fa-google-plus" aria-hidden="true"></i></a> </li>
+                <li><a href="https://twitter.com/indoreinst1" class="tw1"><i class="fa fa-twitter" aria-hidden="true"></i></a> </li>
+                <li><a href="https://www.linkedin.com/school/indore-institute" class="li1"><i class="fa fa-linkedin" aria-hidden="true"></i></a> </li>
+                <li><a href="https://wa.me/918224071000" class="wa1"><i class="fa fa-whatsapp" aria-hidden="true"></i></a> </li>
+                <li><a href="#" class="sh1"><i class="fa fa-envelope-o" aria-hidden="true"></i></a> </li>
+            </ul>
+        </div>
+    </section>
+
+    <!--Import jQuery before materialize.js-->
+    <script src="js/main.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/materialize.min.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+
+
+</html>

@@ -1,0 +1,14 @@
+SMAP
+adminAddFaculty_jsp.java
+JSP
+*S JSP
+*F
++ 0 adminAddFaculty.jsp
+adminAddFaculty.jsp
+*L
+1,25:46
+25:71
+27,4:73
+30,10:77
+39,290:87
+*E
